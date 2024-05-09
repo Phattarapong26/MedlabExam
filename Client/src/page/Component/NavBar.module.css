@@ -1,0 +1,94 @@
+.nav {
+    display: grid;
+    grid-template-columns: 2fr 6fr 2fr;
+    background-color: #ffffff;
+    padding: 1rem;
+    width: 97vw;
+    align-items: center; /* to vertically center the content */
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+    top: 0;
+    position: fixed;
+    z-index: 100;
+  }
+  
+  @media (max-width: 768px) {
+   .nav {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+    
+    .logo {
+      margin-left: 3rem;
+      height: 50px;
+      width: auto;
+      margin-bottom: 1rem;
+    }
+    
+    .menu {
+      display: flex;
+      list-style: none;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    .menu li {
+      position: relative;
+    }
+    
+    .menu li a {
+      display: block;
+      padding: 0.5rem 1rem;
+      color: #9f9f9f;
+      text-decoration: none;
+    }
+    
+    .dropdown .submenu {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      border-radius: 0px 0px 10px 10px;
+      background-color: #ffffff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .dropdown:hover .submenu {
+      display: block;
+    }
+    
+    .account {
+      margin-bottom: 1.5rem;
+      position: relative;
+      margin-left: 8rem;
+    }
+    
+    .account a {
+      display: flex;
+      align-items: center;
+    }
+    
+    .account img {
+      height: 42px;
+      width: 42px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 0.5rem;
+    }
+    
+    .menu i {
+      font-size: 1.5rem;
+      color: #fff;
+    }
+
+    .menu li a:hover {
+      display: block;
+      padding: 0.5rem 1rem;
+      color: #0fe3ae;
+      text-decoration: none;
+    }

@@ -1,0 +1,174 @@
+.dashsLayOut{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    height: 98vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.Undashs{
+    margin-top:  0.3rem;
+    position: absolute;
+    width: 99vw;
+    height: 71vh;
+    
+    
+}
+.Gooddas{
+    display: flex;
+    width: 97vw;
+    padding:10px;
+   
+}
+.CardList{
+   color: #919191;
+   font-weight: 700;
+   
+   
+    
+}
+.ListG{
+    
+    display: flex;
+    width: 94.5vw;
+    justify-content: space-between;
+    gap: 2rem;
+    height: 74vh;
+    padding-left: 25px;
+    padding-right: 25px;
+  
+}
+.CardList{
+
+    align-items: center;
+    padding: 20px;
+    height: 77vh;
+    display: flex;
+    gap: 1.5rem;
+    
+    
+    margin-left: -3rem;
+    margin-right: -1rem;
+}
+.Tsttt{
+    padding: 10px;
+    border: 1px solid rgb(232, 232, 234);
+    background-color: #fff;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.1);
+    height: 330px;
+    margin-top: -23rem;
+
+}
+.Chartt{
+    
+    padding: 20px;
+}
+
+.GaUG{
+
+    background-color: rgb(156, 30, 30);
+    border: 1px solid rgb(237, 237, 237);
+    width: 250px;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.1);
+    border-radius: 15px;
+   margin-top: 5.3rem;
+}
+
+.outS{
+    
+    border: 1px solid rgb(232, 232, 232);
+    height: 230px;
+    width: 500px;
+    overflow-y: scroll;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.1);
+    padding-left: 2rem;
+}
+.OSlist th{
+    height: 10px;
+    width: 110px;
+    align-items: center;
+    text-align: center;
+    border-bottom: 0.3px solid rgb(220, 220, 220);
+}
+.OSlist td{
+    height: 10px;
+    width: 110px;
+    align-items: center;
+    text-align: center;
+    border-bottom: 0.3px solid gainsboro;
+}
+.OSlist tr{
+    border-bottom: 0.3px solid gainsboro;
+    
+}
+
+.DeadS{
+    border: 1px solid rgb(232, 232, 232);
+    height: 230px;
+    padding-left: 2rem;
+    overflow-y: scroll;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.1);
+}
+.DSSA{
+    border: 1px solid rgb(232, 232, 232);
+    height: 230px;
+    overflow-y: scroll;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.1);
+    padding-left: 2rem;
+}
+
+.SetFrameS{
+    background-color: aqua;
+}
+
+
+
+
+
+.DeadS th{
+    height: 10px;
+    width: 70px;
+    align-items: center;
+    text-align: center;
+    border-bottom: 0.3px solid rgb(220, 220, 220);
+}
+.DeadS td{
+    height: 10px;
+    width: 110px;
+    align-items: center;
+    text-align: center;
+    border-bottom: 0.3px solid gainsboro;
+}
+.DeadS tr{
+    border-bottom: 0.3px solid gainsboro;
+    
+}
+
+
+
+.DSSA th{
+    align-items: center;
+    text-align: center;
+    border-bottom: 0.3px solid rgb(220, 220, 220);
+}
+.DSSA td{
+    align-items: center;
+    text-align: center;
+    border-bottom: 0.3px solid gainsboro;
+}
+.DSSA tr{
+    border-bottom: 0.3px solid gainsboro;
+    
+}

@@ -1,0 +1,73 @@
+/* login.module.css */
+
+.Card {
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    background-color: #52dbe2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  
+  .Card h2 {
+    margin-top: 6rem;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 3rem;
+  }
+  
+  .Card form {
+    color: #ffffff;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    gap: 10px;
+  }
+  
+  .Card form div {
+    margin-bottom: 15px;
+  }
+  
+  .Card form label {
+    font-weight: bold;
+  }
+  
+  .Card form input[type="text"],
+  .Card form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .Card form button[type="submit"] {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+  }
+  
+  .Card form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  

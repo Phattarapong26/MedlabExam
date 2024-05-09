@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: rgb(255, 255, 255);
+    }
+
+    .card {
+        position: relative;
+        width: 300px;
+        height: 400px;
+        background: rgb(255, 255, 255);
+        border-radius: 20px;
+        box-shadow: 0 25px 50px rgb(0, 0, 0, 0.15);
+        border: 1px solid rgb(236, 236, 236);
+    }
+
+    .card span {
+        position: absolute;
+        width: 160px;
+        height: 150px;
+        top: -8px;
+        left: -8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .card span::before {
+        content: 'Login to System';
+        font-size: 10px;
+        position: absolute;
+        width: 300%;
+        height: 40px;
+        background: #08DBE1;
+        transform: rotate(-47deg) translateY(-30px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: rgb(0, 0, 0);
+        letter-spacing: 0.1em;
+        box-shadow: 0 5px 10px rgb(0, 0, 0, 0.1);
+    }
+
+    .cards span::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 10px;
+        height: 10px;
+        background: rgb(255, 255, 255);
+        z-index: -1;
+        box-shadow: 140px-140px #1d1d1d;
+    }
+
+
+    .cards {
+        position: relative;
+        width: 300px;
+        height: 400px;
+        background: rgb(255, 255, 255);
+        border-radius: 20px;
+        box-shadow: 0 25px 50px rgb(0, 0, 0, 0.15);
+        border: 1px solid gainsboro;
+    }
+
+    .cards span {
+        position: absolute;
+        width: 160px;
+        height: 150px;
+        top: -8px;
+        left: -8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .cards span::before {
+        content: 'Account Managemnet';
+        font-size: 10px;
+        position: absolute;
+        width: 300%;
+        height: 40px;
+        background: #739FA1;
+        transform: rotate(-47deg) translateY(-30px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+        letter-spacing: 0.01em;
+        box-shadow: 0 5px 10px rgb(0, 0, 0, 0.1);
+    }
+
+    .cards span::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 10px;
+        height: 10px;
+        background: rgb(255, 255, 255);
+        z-index: -1;
+        box-shadow: 140px-140px #1d1d1d;
+    }
+</style>
+
+<body>
+    <div style="align-items: center;text-align: center;">
+        <di style="display: block; justify-content: center; text-align: center; margin-bottom: 3rem;">
+            <img src="https://raw.githubusercontent.com/Phattarapong26/Medlab-Global/main/src/image/Mula%20GlobalWt.png">
+        </di>
+        <div style="display:flex; gap: 150px;">
+            <div class="card">
+                <span></span>
+                <div style="display: grid; justify-content: center;">
+                    <img src="https://png.pngtree.com/png-clipart/20220131/original/pngtree-young-man-working-with-laptop-on-desk-vector-png-image_7258171.png"
+                        width="150px" style="margin-top: 3rem; margin-bottom: 4rem;">
+                    <hr style="color: rgb(255, 255, 255); width: 100%;">
+                    <Link to="/adminLogin" style="background-color: #08DBE1; height: 50px; border-radius: 20px; margin-top: 2rem; font-size: 15px; color: rgb(255, 255, 255);font-weight: bold;">MEDICINE </Link>
+                </div>
+            </div>
+
+            <div class="cards">
+                <span></span>
+                <div style="display: grid; justify-content: center;">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5nF8CHsXKzkZt88kjB35bUnXZmvDvtH5SMsOaZKPUzg&s"
+                        width="150px" style="margin-top: 5rem; margin-bottom: 4rem;">
+                    <hr style="color: rgb(255, 255, 255); width: 100%;">
+                    <Link to="/userLogin"
+                        style="background-color: #739FA1; height: 50px; border-radius: 20px; margin-top: 2rem; font-size: 15px; color: aliceblue;font-weight: bold;">ADMIN</Link>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

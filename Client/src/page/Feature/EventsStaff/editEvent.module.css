@@ -1,0 +1,105 @@
+.editEventContainer {
+    width: 670px;
+    height: 600px;
+    padding: 4rem;
+    
+  }
+  .editEventTitle {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    font-size: 40px;
+    margin-top: -1rem;
+    color:#0fe3ae;
+
+  }
+  
+  .editEventForm {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    
+  }
+  .editEventForm label{
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+  .editEventForm select{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  .editEventForm input{
+    padding: 1rem;
+    
+  }
+  .editEventLabel {
+    margin-bottom: 5px;
+    
+  }
+  
+  .editEventInput {
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 15px;
+    border-radius: 3px;
+    
+  }
+  .editEventInput:hover {
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    color: #580112;
+    font-size: 15px;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .editEventSaveButton,
+  .editEventCancelButton {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .editEventSaveButton {
+    background-color: #0fe3ae;
+    color: #fff;
+    width: 150px;
+  }
+  
+  .editEventCancelButton {
+    background-color: #acacac;
+    color: #fff;
+    width: 150px;
+  }
+  .editEventSaveButton:hover {
+    background-color: #3f3f3f;
+    color: #fff;
+    width: 150px;
+  }
+  
+  .editEventCancelButton:hover {
+    background-color: #3f3f3f;
+    color: #fff;
+    width: 150px;
+  }
+  
+  
+  
+  .BusKX{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+  }
+  .groupTime{
+    background-color: #4bc8c0;
+  }

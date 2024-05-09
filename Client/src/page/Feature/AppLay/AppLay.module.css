@@ -1,0 +1,17 @@
+.AppLayOut{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    height: 98vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.UnNavss{
+    margin-top:  0.3rem;
+    position: absolute;
+    width: 99vw;
+    height: 71vh;
+
+}

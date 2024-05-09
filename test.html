@@ -1,0 +1,47 @@
+const [eventId, setEventId] = useState(null); // เพิ่ม state สำหรับเก็บ ID ของเหตุการณ์
+// เพิ่มฟังก์ชันสำหรับการอัปเดตเหตุการณ์
+const handleUpdate = async () => {
+  try {
+    const response = await fetch(`http://localhost:3000/events/${eventId}`, {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        title,
+        description,
+        startDate,
+        startTime,
+        endDate,
+        endTime,
+        notificationsValue,
+        notificationsUnit,
+      }),
+    });
+    if (response.ok) {
+      alert("Data updated successfully");
+      // ทำอะไรบางอย่างหลังจากอัปเดตข้อมูล
+    } else {
+      alert("Update failed");
+    }
+  } catch (error) {
+    console.error("Error:", error);
+  }
+};
+
+// เพิ่มฟังก์ชันสำหรับการลบเหตุการณ์
+const handleDelete = async () => {
+  try {
+    const response = await fetch(`http://localhost:3000/events/${eventId}`, {
+      method: "DELETE",
+    });
+    if (response.ok) {
+      alert("Event deleted successfully");
+      // ทำอะไรบางอย่างหลังจากลบเหตุการณ์
+    } else {
+      alert("Delete failed");
+    }
+  } catch (error) {
+    console.error("Error:", error);
+  }
+};

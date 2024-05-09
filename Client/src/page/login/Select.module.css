@@ -1,0 +1,184 @@
+.container{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 98px;
+}
+.cards {
+  align-items: center;
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0 25px 50px rgb(0, 0, 0, 0.15);
+    border: 1px solid gainsboro;
+    
+
+  }
+  
+  .cards span {
+    position: absolute;
+    width: 160px;
+    height: 150px;
+    top: -8px;
+    left: -8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .cards span::before {
+    content: 'Account Management';
+    font-size: 10px;
+    position: absolute;
+    width: 300%;
+    height: 40px;
+    background: #739FA1;
+    transform: rotate(-47deg) translateY(-30px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.01em;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.1);
+  }
+  
+  .cards span::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    background: rgb(255, 255, 255);
+    z-index: -1;
+    box-shadow: 140px-140px #1d1d1d;
+  }
+
+  .card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0 25px 50px rgb(0, 0, 0, 0.15);
+    border: 1px solid gainsboro;
+  
+  }
+  
+  .card span {
+    position: absolute;
+    width: 160px;
+    height: 150px;
+    top: -8px;
+    left: -8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .card span::before {
+    content: 'Connenct System';
+    font-size: 10px;
+    position: absolute;
+    width: 300%;
+    height: 40px;
+    background: #52dbe2;
+    transform: rotate(-47deg) translateY(-30px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.01em;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.1);
+  }
+  
+  .card span::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    background: rgb(255, 255, 255);
+    z-index: -1;
+    box-shadow: 140px-140px #1d1d1d;
+  }
+  
+  .card-content {
+    display: grid;
+    justify-content: center;
+  }
+
+  .hr{
+    width: 98px;
+    margin-top: 2rem;
+  }
+  .content{
+    margin-top: 3rem;
+  }
+  .button1 {
+    background: #52dbe2;
+    margin-top: 2rem;
+    width: 140px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid gainsboro;
+    box-shadow: 0 25px 50px rgb(0, 0, 0, 0.15);
+  }
+  .button2 {
+    margin-top: 2rem;
+    width: 140px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #3b7a87;
+    border: 1px solid gainsboro;
+    box-shadow: 0 25px 50px rgb(0, 0, 0, 0.15);
+  }
+  
+  .button1:hover {
+    background-color: rgb(219, 219, 219);
+    color: rgb(0, 0, 0);
+  }
+  .button2:hover {
+    background-color: rgb(219, 219, 219);
+    color: rgb(0, 0, 0);
+  }
+
+  .TxtCOn{
+    margin-top: 8rem;
+    text-align: center;
+    color: #c5c5c5;
+  }
+
+  .TxtCOn h2{
+    margin-top: -1.5rem;
+    margin-bottom: 5rem;
+    color: #c5c5c5;
+  }
+  .Conk{
+    text-align: center;
+    position: fixed;
+    top: 0;
+  }
+  .Rport{
+    margin-top: 5rem;
+    color: rgb(148, 148, 148);
+  }
+  .Rport:hover{
+    margin-top: 5rem;
+    color: #004cff;
+  }

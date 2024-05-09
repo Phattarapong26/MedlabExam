@@ -1,0 +1,13 @@
+.centered {
+  display: flex;
+  justify-content: center;
+}
+/* App.css */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Optional: Set the height to 100vh to center vertically as well */
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+}

@@ -1,0 +1,288 @@
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3px;
+    width: 99vw;
+    height: 83vh;
+    border: 1px solid rgb(232, 232, 232);
+    background-color: #ffffff;
+    border-radius: 0px 0px 20px 20px ;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .formTitle {
+    margin-top: 5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 5rem;
+    color:#0fe3ae;
+  }
+  
+  .formField {
+    color:  #0fe3ae;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    
+  }
+  
+  .formLabel {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+  }
+  
+  .formInput {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .formButton {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .formButton:hover {
+    background-color: #0069d9;
+  }
+  
+  .formButton:disabled {
+    background-color: #c0c0c0;
+    cursor: not-allowed;
+  }
+
+  .unForm {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .timE {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .showDataContainer{
+    background-color: rgb(255, 255, 255);
+    padding: 3rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    height: 74vh;
+  }
+
+  .eventsList{
+    display: flex;
+    width: 95vw;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+  }
+
+  .eventItem{
+    background-color: rgb(255, 255, 255);
+    padding: 3rem;
+    color: #0069d9;
+    border-radius: 30px;
+    box-shadow: 0 6px 12px rgba(177, 177, 177, 0.2);
+    border: 1px solid gainsboro;
+  }
+
+
+  .showDataContainer {
+    position: relative;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0;
+    height: 84vh;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    width: 100%;
+    height: 100%;
+    z-index: 1000; /* Ensure the Pop-up is above other elements */
+
+  }
+  
+  .popupContent {
+    align-items: center;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 40px;
+    padding: 20px;
+    width: 800px;
+    margin: auto;
+    margin-top: 6rem;
+    color: #489f89;
+    font-weight:900;
+
+    
+
+  }
+  
+  /* Add more styles for Pop-up content as needed */
+  
+  .formField{
+    color:  #0fe3ae;
+  }
+
+  .eventCard{
+    width: 355px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+  .DaCard{
+    color: #3a3a3a;
+  }
+  .Buts{
+    margin-top: 3rem;
+    width: 100%;
+    gap: 1rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .Buts button{
+    box-shadow: 0 6px 12px rgba(177, 177, 177, 0.2);
+    border: 1px solid rgba(203, 203, 203, 0.363);
+    width: 99px;
+  }
+  .Buts button:hover{
+    background-color: #828282;
+    color: aliceblue;
+  }
+  .Buts button:first-child {
+    background-color: rgb(186, 186, 186);
+    color: white;
+  }
+  
+  .Buts button:last-child {
+    background-color:  #0fe3ae;
+    color: white;
+  }
+
+  .Buts button:last-child:hover{
+    background-color: #606060;
+    color: #ffffff;
+  }
+  .Buts button:first-child:hover {
+    background-color: #606060;
+    color: #ffffff;
+  }
+  
+
+  .pagination{
+    margin-top: 3rem;
+    position: fixed;
+    bottom: 60px;
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+    gap: 0.4rem;
+    color: #0fe3ae;
+    font-weight: 600;
+  }
+  .pagination button{
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #c0c0c0;
+    color: #0fe3ae;
+    font-weight: 600;
+  }
+  .pagination button:hover{
+    background-color: #0fe3ae;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #c0c0c0;
+    color: #ffffff;
+  }
+  .HeadE{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 190px; 
+    margin-bottom: 2rem;
+    width: 80vw;
+    position: fixed;
+    margin-top: 0;
+  }
+  .CreE{
+    width: 160px;
+    height: 50px;
+    background-color: #0fe3ae;
+    color: #ffffff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
+  }
+  .CreE:hover {
+    background: #515151; /* change the background color on hover */
+    cursor: pointer; /* change the cursor shape to a pointer on hover */
+    color: #ffffff;
+  }
+
+  .showDataTitle{
+    color: #0fe3ae;
+  }
+  .formButtons{
+    background-color: #cacaca;
+    width: 140px;
+  }
+  .formButton{
+    background-color: #0fe3ae;
+    width: 140px;
+    
+  }
+  .formButtons:hover{
+    background-color: #707070;
+    width: 140px;
+  }
+  .formButton:hover{
+    background-color: #707070;
+    width: 140px;
+    
+  }
+
+  .Formbut {
+    
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .DaCard p2{
+    color: #03cd79;
+    font-weight: 700;
+  }
+
+  .DaCard p{
+    color: #909090;
+  }
+
+  .DaCard h4{
+    color: #909090;
+    display: flex;
+    align-items: center;
+  
+  }
+  .DaCard h3{
+    color: #03cd79;
+    font-weight: 700;
+  }
